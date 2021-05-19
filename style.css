@@ -1,0 +1,93 @@
+:root {
+  --primaryColor: rgb(155, 25, 25);
+  --secondaryColor: rgb(151, 151, 151);
+  --fontSize: 16px;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+table {
+  border-spacing: 0;
+}
+td {
+  padding: 0;
+}
+img {
+  border: 0;
+}
+body {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  table-layout: fixed;
+  background-color: rgb(248, 248, 248);
+  padding-bottom: 40px;
+}
+.webkit {
+  max-width: 600px;
+  background-color: white;
+}
+.outer {
+  width: 100%;
+  margin: 0 auto;
+  border-spacing: 0;
+}
+.title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: rgb(112, 22, 22);
+  text-align: center;
+}
+.content-seperator {
+  width: 100%;
+  background-color: rgb(90, 47, 47);
+  height: 3px;
+  margin: 20px 0px 35px 0px;
+}
+
+.post-title {
+  color: rgb(155, 25, 25);
+  margin: 10px 0px 20px 0px;
+  font-size: 1.3rem;
+  letter-spacing: 0.2px;
+}
+/* Font-size 0 and line height 0 are for outlook */
+.three-columns {
+  text-align: center;
+  font-size: 0;
+  line-height: 0;
+  padding-top: 24px;
+  padding-bottom: 30px;
+}
+.column {
+  width: 100%;
+  max-width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+.padding {
+  padding: 15px;
+}
+.content {
+  font-size: 1rem;
+  line-height: 1.2;
+}
+.secondary-seperator {
+  width: 100%;
+  background-color: rgb(243, 166, 65);
+  height: 4px;
+  margin: 20px 0px 35px 0px;
+}
