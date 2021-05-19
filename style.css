@@ -54,7 +54,7 @@ body {
 .content-seperator {
   width: 100%;
   background-color: rgb(90, 47, 47);
-  height: 3px;
+  height: 2px;
   margin: 20px 0px 35px 0px;
 }
 
@@ -86,8 +86,9 @@ body {
   line-height: 1.2;
 }
 .secondary-seperator {
-  width: 100%;
+  width: 70%;
+  margin: auto;
   background-color: rgb(243, 166, 65);
-  height: 4px;
+  height: 2px;
   margin: 20px 0px 35px 0px;
 }
